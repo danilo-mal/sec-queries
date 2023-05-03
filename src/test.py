@@ -1,6 +1,5 @@
-from api_keys import KEYS
+from src.api_keys import KEYS
 from sec_api import FullTextSearchApi
-
 
 fullTextSearchApi = FullTextSearchApi(api_key=KEYS.SEC_API_KEY)
 
